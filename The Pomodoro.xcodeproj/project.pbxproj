@@ -12,6 +12,11 @@
 		63DE931319D258E90020B71B /* PORoundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DE931219D258E90020B71B /* PORoundsViewController.m */; };
 		63DE931619D259070020B71B /* PORoundsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DE931519D259070020B71B /* PORoundsDataSource.m */; };
 		63DE931919D267240020B71B /* POTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DE931819D267240020B71B /* POTimer.m */; };
+		63F7074E19D3C0810086927D /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63F7074919D3C0810086927D /* 1.jpg */; };
+		63F7074F19D3C0810086927D /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63F7074A19D3C0810086927D /* 2.jpg */; };
+		63F7075019D3C0810086927D /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63F7074B19D3C0810086927D /* 5.jpg */; };
+		63F7075119D3C0810086927D /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63F7074C19D3C0810086927D /* 3.jpg */; };
+		63F7075219D3C0810086927D /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63F7074D19D3C0810086927D /* 4.jpg */; };
 		7141B2E6193DBDFD0084F9F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7141B2E5193DBDFD0084F9F1 /* Foundation.framework */; };
 		7141B2E8193DBDFD0084F9F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7141B2E7193DBDFD0084F9F1 /* CoreGraphics.framework */; };
 		7141B2EA193DBDFD0084F9F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7141B2E9193DBDFD0084F9F1 /* UIKit.framework */; };
@@ -46,6 +51,11 @@
 		63DE931519D259070020B71B /* PORoundsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PORoundsDataSource.m; sourceTree = "<group>"; };
 		63DE931719D267240020B71B /* POTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POTimer.h; sourceTree = "<group>"; };
 		63DE931819D267240020B71B /* POTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POTimer.m; sourceTree = "<group>"; };
+		63F7074919D3C0810086927D /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		63F7074A19D3C0810086927D /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		63F7074B19D3C0810086927D /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		63F7074C19D3C0810086927D /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		63F7074D19D3C0810086927D /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
 		7141B2E2193DBDFD0084F9F1 /* The Pomodoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Pomodoro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7141B2E5193DBDFD0084F9F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7141B2E7193DBDFD0084F9F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -88,6 +98,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63F7075319D3C0850086927D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				63F7074919D3C0810086927D /* 1.jpg */,
+				63F7074A19D3C0810086927D /* 2.jpg */,
+				63F7074C19D3C0810086927D /* 3.jpg */,
+				63F7074D19D3C0810086927D /* 4.jpg */,
+				63F7074B19D3C0810086927D /* 5.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		7141B2D9193DBDFD0084F9F1 = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +154,7 @@
 				63DE931519D259070020B71B /* PORoundsDataSource.m */,
 				63DE931719D267240020B71B /* POTimer.h */,
 				63DE931819D267240020B71B /* POTimer.m */,
+				63F7075319D3C0850086927D /* images */,
 				7141B2F7193DBDFD0084F9F1 /* Images.xcassets */,
 				7141B2EC193DBDFD0084F9F1 /* Supporting Files */,
 			);
@@ -243,9 +266,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63F7074F19D3C0810086927D /* 2.jpg in Resources */,
+				63F7075019D3C0810086927D /* 5.jpg in Resources */,
+				63F7075119D3C0810086927D /* 3.jpg in Resources */,
+				63F7075219D3C0810086927D /* 4.jpg in Resources */,
 				63DE931019D258DC0020B71B /* POTimerViewController.xib in Resources */,
 				7141B2F0193DBDFD0084F9F1 /* InfoPlist.strings in Resources */,
 				7141B2F8193DBDFD0084F9F1 /* Images.xcassets in Resources */,
+				63F7074E19D3C0810086927D /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

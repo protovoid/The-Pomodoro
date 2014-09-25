@@ -29,6 +29,11 @@
     
     tabBarController.viewControllers = @[roundsViewController, timerViewController];
     
+    // UIColor *navigationBarColor = [UIColor redColor];
+    [[UINavigationBar appearance] setBarTintColor:[UIColor redColor]];
+    [[UITabBar appearance] setTintColor:[UIColor blueColor]];
+    
+    
     self.window.rootViewController = tabBarController;
     
     

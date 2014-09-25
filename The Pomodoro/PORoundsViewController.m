@@ -9,6 +9,8 @@
 #import "PORoundsViewController.h"
 #import "PORoundsDataSource.h"
 
+NSInteger const count = 5; // equal to # of images
+
 @interface PORoundsViewController () <UITableViewDelegate>
 
 @property (strong, nonatomic) UITableView *tableView;
@@ -33,6 +35,23 @@
     self.tableView.delegate = self;
     self.title = @"Rounds";
     self.tableView.backgroundColor = [UIColor redColor];
+    
+    
+    /*
+    for (int i = 1; i <= count; i++) {
+        
+        UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"%d.jpg", i]];
+        
+        UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
+        //imageView.frame = CGRectMake((i - 1) * self.view.frame.size.width + 20, 20, self.view.frame.size.width - 40, self.view.frame.size.height - 40);
+        imageView.frame = CGRectMake((i - 1) *  20, 20, 60 - 40, self.view.frame.size.height - 40);
+        
+        imageView.contentMode = UIViewContentModeScaleAspectFit; // makes images not stretched
+        
+        [tableView addSubview:imageView];
+    }
+    */
+    
 }
 
 
@@ -40,6 +59,17 @@
     
     // Add didSelectRowAtIndexPath to change currentRound and reload data and post minutes
 
+    
+}
+
+
+//- (NSArray)times {
+//    return times;
+//}
+
+
+- (void)postMinutes {
+    // In the postMinutes method post round minutes notification
     
 }
 
