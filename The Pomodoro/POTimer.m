@@ -24,7 +24,7 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         sharedInstance = [[POTimer alloc] init];
-        // sharedInstance.entries = @[]; // create empty array
+        sharedInstance.entries = @[]; // create empty array
         // [sharedInstance registerForNotifications];
         // [sharedInstance loadFromDefaults];
     });

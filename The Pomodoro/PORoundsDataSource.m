@@ -30,8 +30,8 @@
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    // return [POTimer sharedInstance].entries.count;
-    return tableView;
+    return [POTimer sharedInstance].entries.count;
+    
 }
 
 @end
