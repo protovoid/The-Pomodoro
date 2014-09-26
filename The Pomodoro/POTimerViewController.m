@@ -29,6 +29,7 @@
 - (IBAction)tapTimer:(id)sender {
     
     NSTimer *timer = [NSTimer new];
+    
     // In the action method you need to use performSelector after delay to count down
     // You'll need to store the seconds and minutes and decrease the time by a second each time the method gets called.
     // When seconds and minutes are zero post the notification.
